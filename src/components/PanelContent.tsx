@@ -37,11 +37,7 @@ export const PanelContent: React.FC<PanelContentProps> = ({
       color={convert(themes.normal).color.positive}
     >
       <Placeholder>
-        <Fragment>
-          Addons can gather details about how a story is rendered. This is panel
-          uses a tab pattern. Click the button below to fetch data for the other
-          two tabs.
-        </Fragment>
+        <Fragment>Here we can see all design tokens</Fragment>
         <Fragment>
           <RequestDataButton
             secondary

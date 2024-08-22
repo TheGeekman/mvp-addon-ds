@@ -22,10 +22,8 @@ interface TabContentProps {
 export const TabContent: React.FC<TabContentProps> = ({ code }) => (
   <TabWrapper>
     <TabInner>
-      <H1>My Addon</H1>
-      <p>
-        Your addon can create a custom tab in Storybook.
-      </p>
+      <H1>Design Inspector</H1>
+      <p>Your addon can create a custom tab in Storybook.</p>
       <p>
         You have full control over what content is being rendered here. You can
         use components from{" "}
